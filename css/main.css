@@ -1,0 +1,160 @@
+.text-white {
+	color: white;
+}
+
+.red {
+	color: #F05F40;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.mg-auto {
+	margin: 0 auto;
+}
+
+.pt-7 {
+	padding: 7% 0px;
+}
+
+.pd-2 {
+	padding: 2% 0px;
+}
+
+.pd-5 {
+	padding-top: 5%;
+}
+
+.bck-red {
+	background-color: #F05F40;
+}
+
+
+
+/*HEADER*/
+header {
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+}
+/*coloqué el código para que la palbra Portafolio, sea color rojo*/
+.navbar-default .navbar-brand {
+	color: red;
+}
+/*coloqué este código para que mis letras del menú sean color black*/
+.navbar-default .navbar-nav > li > a {
+	color: black;
+}
+/*coloqué este código para que al darle hover a mi menú me salgan las letras color rojo*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: red;
+}
+
+/*coloqué este código para quitarle el borde al boton*/
+
+.btn-primary {
+	border: 1px solid #F05F40;
+}
+
+/*coloqué este codigo para disminuir el tamaño de la letra*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 3.5em;
+	margin-top: 10%;
+}
+
+.jumbotron p, .jumbotron .p {
+	font-size: 1em;
+}
+
+.linea-roja {
+	border: 2px solid #F05F40;
+	width: 5%;
+}
+
+.text {
+	padding-top: 3%;
+	width: 60%;
+}
+
+.btn-default {
+	width: 18%;
+	border-radius: 20px; 
+	padding: 1%;
+	margin: 3% 42%;
+	font-size: 0.8em;
+}
+
+.btn-default:hover {
+	background-color: red;
+	border: 1px solid red;
+	color: white;
+}
+
+/*1era Seccion*/
+.fondo-rojo {
+	background-color: #F05F40;
+}
+
+.lin-blanca {
+	width: 5%;
+	border: 2px solid white;
+	margin-top: 2%;
+}
+.parrafo {
+	padding: 2% 20%;
+}
+
+.transparent {
+	background-color: transparent;
+}
+/*2da Seccion*/
+
+.icon {
+	font-size: 400%;
+}
+
+/*3ra seccion*/
+
+.imagen {
+	width: 100%;
+}
+
+.negro {
+	background-color: black;
+	margin: 0px;
+}
+
+.theText { 
+	opacity:0;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: auto;
+} 
+
+.overlay:hover .theText { 
+	opacity:0.9; 
+	color:#FFFFFF; 
+	font-size:20px; 
+	font-weight:700;
+	background-color: #F05F40;
+	text-align: center;
+	padding-top: 20%;
+	min-height: 100%; 
+}
+
+.col-md-4 {
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+
+.padding {
+	padding: 7% 5%;
+}
